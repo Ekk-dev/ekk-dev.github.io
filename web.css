@@ -1,0 +1,191 @@
+
+a:link {
+	color: #883444;
+}
+a:visited {
+	color: #883444;
+}
+a:hover {
+	color: #FFFFFF;
+}
+a:active {
+	color: #000000;
+}
+</style>
+</head>
+<style>
+	
+	body{
+		
+		background-color: lavenderblush;
+		margin: 0px;
+	
+		
+		
+		
+	}
+	
+	header{
+		text-align: center;
+		background-color: lightpink;
+		padding: 1px;
+		width:100%;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+	
+	}
+	
+	#name{
+		float: left;
+		font-size: 40px;
+		margin-left: 50px;
+		
+		
+	
+	}
+	nav{
+		float: right;
+		margin-top: 40px;
+		margin-right: 200px;
+		font-size:30px; 
+		
+		
+	}
+	
+	
+	
+	main{
+		width: 1200px;
+		margin-left:70px;
+		
+		
+		
+		
+		
+		
+	}
+	
+	h2{
+		
+		
+		margin-top: 60px;
+		font-size: 50px;
+		text-align: center;
+		
+	}
+	
+	
+	
+	
+	
+	
+	p{
+		font-size: 20px;
+		 font-family: "Monda", sans-serif;
+  font-optical-sizing: auto;
+ 
+  font-style: normal;
+		margin-bottom: 10px
+		
+		
+		
+	}
+	#red{
+		position:absolute;
+		top:2140px;
+		left: 500px;
+		z-index:-1 ;
+
+	}
+	
+	
+	
+	#tree {	position:absolute;
+		top:1750px;
+		left: 900px;
+	
+	
+		z-index: -1;
+	
+	}
+	
+	
+	
+	
+	.orange {position:absolute;
+		top:2200px;
+		left: 800px;
+			z-index: -1;
+		
+		
+		
+		
+		
+	}
+	
+	.stripe{
+		
+	
+		position:absolute;
+		top:1900px;
+		left: 400px;
+			z-index: -2;
+		
+	}
+
+	
+	
+	
+	.wave {
+		
+			position:absolute;
+		top:1800px;
+		left: 100px;
+			z-index: -3;
+		
+		
+	}
+	
+	
+	
+	.sea {
+		
+		
+		
+				position:absolute;
+		top:2300px;
+		left: 500px;
+			z-index: -3;
+		
+	}
+	
+	
+	pre{
+		
+		font-size: 150px;
+			
+		width: 500px;
+					position:absolute;
+		top: -90px;
+		left: -900px;
+		z-index: -1;
+		
+		
+		
+		
+	}
+	
+	footer{
+		
+		background-color: lightpink;
+		padding: 40px;
+		text-align: center;
+		margin-top: 1100px;
+		width: 1300px;
+		font-size: 20px;
+		
+	}
+	
+	
+	
