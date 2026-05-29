@@ -3,50 +3,35 @@
 <head>
 <meta charset="UTF-8">
 <title>Graphic Design</title>
-	
-	
-	<style>
-	
-		
+
+<style>
+
 body {
  background-color:#FFE6AE;
-    height: 1800px;   
-	margin: 0px;
-}		
-		
-	
+ height: 1800px;
+ margin: 0px;
+}
 
 nav{
 	display:flex;
 	justify-content:space-between;
 	font-size: 20px;
-	
-		
-		
-		}
-			nav a{
-			padding: 10px;
-						  font-family: "Cabin", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-		}
-		
-		
-		
-				header {
-  position: sticky;
-  top: 0;
- 
-  background: #f04830;
-		
-			overflow: auto;
-			padding: 30px;
-					
-					
 }
+
+nav a{
+	padding: 10px;
+	font-family: "Cabin", sans-serif;
+	font-weight: 400;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	background: #f04830;
+	overflow: auto;
+	padding: 30px;
+}
+
 main{
 	display:flex;
 	justify-content:center;
@@ -57,129 +42,28 @@ main{
 }
 
 button {
-  padding: 17px 40px;
-  border-radius: 50px;
-  cursor: pointer;
-  border: 0;
-  background-color:#FFE6AE;
-  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  font-size: 15px;
-  transition: all 0.5s ease;
-	  font-family: "Cabin", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-	
+	padding: 17px 40px;
+	border-radius: 50px;
+	cursor: pointer;
+	border: 0;
+	background-color:#FFE6AE;
+	font-size: 15px;
+	transition: all 0.5s ease;
+	font-family: "Cabin", sans-serif;
+	font-weight: 600;
 }
+
 button:hover {
-  letter-spacing: 3px;
-  background-color: #67926E;
-  color: hsl(0, 0%, 100%);
-  
+	letter-spacing: 3px;
+	background-color: #67926E;
+	color: white;
 }
 
 button:active {
-  letter-spacing: 3px;
-  background-color:#67926E;
-  color: hsl(0, 0%, 100%);
- 
-  transform: translateY(10px);
-  transition: 100ms;
+	transform: translateY(10px);
+	transition: 100ms;
 }
 
-
-		h2{
-			font-size: 30px; 
-			
-			
-			
-		}	
-
-.about{
-    margin-top: 300px;  
-    width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
-
-    display: flex;
-    align-items: flex-start;
-    gap: 30px;
-	
-}
-
-.about-img{
-  
-    width: 300px;
-    height: auto;
-    margin-top: 50px;
-}
-
-
-.state{
-    margin-top: 150px;
-    width: 950px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
-	text-align: justify;
-	
-    clear: both;
-	
-}
-		.about-text{
-			
-			justify-content: center;
-			text-align: justify;
-		}
-		
-		#title{ margin-top: 50px;
-			margin-left: auto;
-			margin-right: auto;
-			
-			
-		
-		}
-		
-		h1{
-			font-size: 150px;
-			color: #f04830;
-			margin-left: auto;
-			margin-right: auto;
-			text-align: center;
-		 font-family: "Major Mono Display", monospace;
-  font-weight: 400;
-  font-style: normal;
-		}
-		
-	
-
-	a:link {
-	color: #FFE6AE;
-	text-decoration: none;
-}
-a:visited {
-	text-decoration: none;
-	color: #FFE6AE;
-}
-a:hover {
-	text-decoration: none;
-	color: #67926E;
-}
-a:active {
-	text-decoration: none;
-	color: #FFE6AE;
-}
-				.logo{font-family:'Playfair Display',serif;
-			font-size: 25px;
-			color: #FFE6AE;
-		}
-.logo span{color:#67926E
-		}
 .images {
 	display: flex;
 	justify-content: center;
@@ -201,7 +85,7 @@ a:active {
 	transform: scale(1.03);
 }
 
-/* ================= LIGHTBOX ================= */
+/* LIGHTBOX */
 
 .lightbox-target {
 	position: fixed;
@@ -223,10 +107,9 @@ a:active {
 .lightbox-target img {
 	max-width: 90%;
 	max-height: 90vh;
-	box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
-/* CLOSE BUTTON */
+/* CLOSE */
 
 .lightbox-close {
 	position: absolute;
@@ -237,7 +120,7 @@ a:active {
 	text-decoration: none;
 }
 
-/* NEXT BUTTON */
+/* NEXT */
 
 .next {
 	position: absolute;
@@ -247,32 +130,20 @@ a:active {
 	font-size: 70px;
 	color: white;
 	text-decoration: none;
-	padding: 10px;
-	transition: 0.2s;
 }
 
-.next:hover {
-	color: #67926E;
-	transform: translateY(-50%) scale(1.2);
-}
-	
-	</style>
-	 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:slnt,CRSV,ELSH@-8,1,49.8&family=Cabin:ital,wght@0,400..700;1,400..700&family=Major+Mono+Display&display=swap" rel="stylesheet">
+</style>
+
 </head>
-	
-	
-			
-
 
 <body>
+
 <header>
 <nav>
-    <div class="logo"><a href="Homepage.html">
-	  Eman<span>.</span>K
-	  
-    </a></div>
+  <div class="logo">
+    <a href="Homepage.html">Eman<span>.</span>K</a>
+  </div>
+
   <div>
     <a href="#about">About</a>
     <a href="#portfolio">Portfolio</a>
@@ -280,219 +151,139 @@ a:active {
   </div>
 </nav>
 </header>
-<div id="title">
-	
-	<h1> graphic design</h1>
-	</div>
-	
-	
-	<main>
 
-	
-		
-<a href="Graphic Design.html"> 
-<button>Graphic Design</button>
-		</a>
-		<a href="web design.html">
-<button> Web Design</button>
-	  </a>
-		<a href="Digital art.html">
-<button> Digital Art</button>
-	  </a>
-		<a href="Traditional Art.html">
-<button> Traditional Art</button>
-		</a>
-		
-		
-	
-	</main>
-<img src="border.jpg" width="1520" height="55" alt=""/>
+<main>
+<a href="Graphic Design.html"><button>Graphic Design</button></a>
+<a href="web design.html"><button>Web Design</button></a>
+<a href="Digital art.html"><button>Digital Art</button></a>
+<a href="Traditional Art.html"><button>Traditional Art</button></a>
+</main>
+
+<!-- BORDER -->
+<img src="images/border.jpg" width="1520" height="55" alt="">
 
 <div class="images">
 
     <div class="pic">
         <a href="#img1">
-            <img src="images/emank mag final.png" width="350" height="451">
+            <img src="images/game_1.png" width="400" height="367">
         </a>
-        <p>"Magazine Cover" 2025 <br>13x19</p>
+        <p>"Seekers" Webgame 2026<br>HTML/CSS</p>
     </div>
 
     <div class="pic">
         <a href="#img2">
-            <img src="images/emank mag final2.png" width="350" height="451">
+            <img src="images/game_2.png" width="400" height="367">
         </a>
-        <p>"Table Of Contents" 2025 <br>13x19
-		
-		</p>
+        <p>"Seekers" Webgame 2026<br>HTML/CSS</p>
     </div>
 
     <div class="pic">
         <a href="#img3">
-            <img src="images/emank mag final3.png" width="350" height="451">
+            <img src="images/game_3.png" width="400" height="367">
         </a>
-        <p>"Magazine Spread 1" <br>13x19</p>
+        <p>"Seekers" Webgame 2026<br>HTML/CSS</p>
     </div>
 
     <div class="pic">
         <a href="#img4">
-            <img src="images/emank mag final4.png" width="350" height="451">
+            <img src="images/bhome.png" width="400" height="367">
         </a>
-        <p>"Magazine Spread 2" <br>13x19</p>
+        <p>"Poems of Nicola Davies" 2026<br>HTML/CSS</p>
     </div>
-	
-	
-	
-	
-	
-	
-	
-	 	 <div class="pic">
+
+    <div class="pic">
         <a href="#img5">
-        <img src="images/Graphic Glyphs Cover.jpg" width="350" height="451">
+            <img src="images/blog2.png" width="400" height="367">
         </a>
-        <p>"Graphic Glyps Cover" 2022 <br>A4</p>
+        <p>"Poems of Nicola Davies" 2026<br>HTML/CSS</p>
     </div>
-	
-	
-	
-	
-	
-	 <div class="pic">
+
+    <div class="pic">
         <a href="#img6">
-            <img src="images/pg1.png" width="350" height="451">
+            <img src="images/blog3.png" width="400" height="367">
         </a>
-        <p>"Graphic Glyps Page 1' 2022 A4 <br>A4
-		 </p>
+        <p>"Poems of Nicola Davies" 2026<br>HTML/CSS</p>
     </div>
-	
-	
-	
-  <div class="pic">
+
+    <div class="pic">
         <a href="#img7">
-            <img src="images/pg2.png" width="350" height="451">
+            <img src="images/landing.png" width="400" height="367">
         </a>
-        <p>"Graphic Glyps Page 2" 2022<br> A4</p>
+        <p>"Designs Ahead of Time" 2026<br>HTML/CSS</p>
     </div>
-	
-	
-	
-	
-	
-	
-	
-	
-	 <div class="pic">
+
+    <div class="pic">
         <a href="#img8">
-        <img src="images/brandboard emank.png" width="350" height="451">
+            <img src="images/page2.png" width="400" height="367">
         </a>
-        <p>"Personal Brandboard" </p>
+        <p>"Designs Ahead of Time" 2026<br>HTML/CSS</p>
     </div>
-	
-	
-	 <div class="pic">
+
+    <div class="pic">
         <a href="#img9">
-        <img src="images/shifa.png" width="350" height="451">
+            <img src="images/page3.png" width="400" height="367">
         </a>
-        <p>"Shifa Healing Cream" 2022<br> A4</p>
+        <p>"Designs Ahead of Time" 2026<br>HTML/CSS</p>
     </div>
-	
-	
-	
-	
-	
-	
-	
-	
-		
-	 <div class="pic">
-        <a href="#img10">
-            <img src="images/Mariab.png" width="650" height="442">
-        </a>
-       <p>"Brand Redesign" 2022 <br>13x19</p>
-  </div>
-	
-	
-	
-	
-	
 
 </div>
 
-<!-- ================= LIGHTBOXES ================= -->
+<!-- LIGHTBOXES -->
 
 <div id="img1" class="lightbox-target">
-    <a href="#" class="lightbox-close">×</a>
-    <a href="#img2" class="next">›</a>
-    <img src="images/emank mag final.png">
+<a href="#" class="lightbox-close">×</a>
+<a href="#img2" class="next">›</a>
+<img src="images/game_1.png">
 </div>
 
 <div id="img2" class="lightbox-target">
-    <a href="#" class="lightbox-close">×</a>
-    <a href="#img3" class="next">›</a>
-    <img src="images/emank mag final2.png">
+<a href="#" class="lightbox-close">×</a>
+<a href="#img3" class="next">›</a>
+<img src="images/game_2.png">
 </div>
 
 <div id="img3" class="lightbox-target">
-    <a href="#" class="lightbox-close">×</a>
-    <a href="#img4" class="next">›</a>
-    <img src="images/emank mag final3.png">
-	
+<a href="#" class="lightbox-close">×</a>
+<a href="#img4" class="next">›</a>
+<img src="images/game_3.png">
 </div>
 
 <div id="img4" class="lightbox-target">
-    <a href="#" class="lightbox-close">×</a>
-    <a href="#img5" class="next">›</a>
-    <img src="images/emank mag final4.png">
-	
+<a href="#" class="lightbox-close">×</a>
+<a href="#img5" class="next">›</a>
+<img src="images/bhome.png">
 </div>
 
-		<div id="img5" class="lightbox-target">
-    <a href="#" class="lightbox-close">×</a>
-    <a href="#img6" class="next">›</a>
-    <img src="images/Graphic Glyphs Cover.jpg">
-	
-	</div>
-	<div id="img6" class="lightbox-target">
-    <a href="#" class="lightbox-close">×</a>
-    <a href="#img7" class="next">›</a>
-    <img src="images/pg1.png">
-	
+<div id="img5" class="lightbox-target">
+<a href="#" class="lightbox-close">×</a>
+<a href="#img6" class="next">›</a>
+<img src="images/blog2.png">
 </div>
 
-	<div id="img7" class="lightbox-target">
-    <a href="#" class="lightbox-close">×</a>
-    <a href="#img8" class="next">›</a>
-    <img src="images/pg2.png">
-	
+<div id="img6" class="lightbox-target">
+<a href="#" class="lightbox-close">×</a>
+<a href="#img7" class="next">›</a>
+<img src="images/blog3.png">
 </div>
 
-	<div id="img8" class="lightbox-target">
-    <a href="#" class="lightbox-close">×</a>
-    <a href="#img9" class="next">›</a>
-    <img src="images/brandboard emank.png">
-	
+<div id="img7" class="lightbox-target">
+<a href="#" class="lightbox-close">×</a>
+<a href="#img8" class="next">›</a>
+<img src="images/landing.png">
 </div>
 
-	<div id="img9" class="lightbox-target">
-    <a href="#" class="lightbox-close">×</a>
-    <a href="#img10" class="next">›</a>
-    <img src="images/shifa.png">
-	
+<div id="img8" class="lightbox-target">
+<a href="#" class="lightbox-close">×</a>
+<a href="#img9" class="next">›</a>
+<img src="images/page2.png">
 </div>
 
-	<div id="img10" class="lightbox-target">
-    <a href="#" class="lightbox-close">×</a>
-    <a href="#img1" class="next">›</a>
-    <img src="images/Mariab.png">
-	
+<div id="img9" class="lightbox-target">
+<a href="#" class="lightbox-close">×</a>
+<a href="#img1" class="next">›</a>
+<img src="images/page3.png">
 </div>
-	
 
-<footer>
-  
-  
-  
-</footer>
-		
 </body>
 </html>
